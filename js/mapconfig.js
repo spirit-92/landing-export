@@ -31,7 +31,3 @@ function initMap() {
     });
   }
 }
-$('.click-menu-element').click(function(e){
-  let scroll = e.target.getAttribute('href');
-  $('html, body').animate({scrollTop:$(scroll).position().top}, 2000);
-});
